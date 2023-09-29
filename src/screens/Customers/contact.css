@@ -1,0 +1,48 @@
+.contact-page h5{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 4px;
+}
+
+.contact-page p{
+    margin: 2%;
+}
+
+.contact-form form button{
+    margin-left: 9%;
+}
+
+.contact-form form{
+    padding: 1%;
+}
+
+.contact-page #header #back{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.contact-form h4{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-page p{
+        margin: 2%;
+    }
+
+    .contact-page h5{
+        font-size: 15px;
+    }
+
+    .contact-page #header #back{
+        font-size: 25px;
+    }
+
+    .contact-form h4{
+        font-size: 15px !important;
+    }
+}

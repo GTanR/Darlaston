@@ -1,0 +1,257 @@
+.bar {
+    display: flex;
+    align-items: center;
+    background: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .searchBar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    width: 700px;
+  }
+  
+  .searchIcon {
+    margin-right: 5px;
+  }
+  
+  .searchInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    width: 700px;
+  }
+  
+  .userPhoto {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .loginButton {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .cartCount {
+    font-size: 15px;
+    margin-right: 5px;
+  }
+
+  .loginButton{
+    background: none;
+    color: black;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .user{
+    padding-left: 10px;
+  }
+
+  .cart{
+    margin-left: 10px;
+  }
+
+  .cartIcon{
+    margin-right: 5px;
+  }
+
+  .company{
+    display: flex;
+    flex-direction: horizontal;
+  }
+
+  .company .components{
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: 15px;
+  }
+
+  .company a{
+    margin-left: 15px;
+    background: none;
+    border: none;
+    font-size: 12px;
+    color: black;
+  }
+
+  .company h5{
+    margin-left: 15px;
+  }
+
+  .banner{
+    width: 98%;
+    height: 300px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-left: 1%;
+    text-align: center;
+    line-height: 150px;
+    font-size: 20px;
+  }
+
+  .banner button{
+    background: none;
+    border: none;
+  }
+
+  .description{
+    text-align: center;
+    border: 1px solid lightgray;
+    width: 98%;
+    margin: 1%;
+    border-radius: 5px;
+    height: 200px;
+    align-content: center;
+    padding: 3%;
+  }
+
+  .newArrivals{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 98%;
+    margin: 1%;
+    padding-left: 2px;
+  }
+
+  .newArrivals h6{
+    margin-left: 20px;
+  }
+
+  .newArrivals .products{
+    display: flex;
+  }
+
+  .newArrivals p{
+    background-color: plum;
+    width: 220px;
+    height: 220px;
+    justify-content: space-between;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 200px;
+  }
+
+  .bestSellers{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 98%;
+    margin: 1%;
+    padding-left: 2px;
+  }
+
+  .bestSellers h6{
+    margin-left: 20px;
+  }
+
+  .bestSellers .products{
+    display: flex;
+  }
+
+  .bestSellers p{
+    background-color: plum;
+    width: 220px;
+    height: 220px;
+    justify-content: space-between;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 200px;
+  }
+
+  .footer {
+    background-color: purple;
+    color: #fff;
+    padding: 20px;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer h6 {
+    margin: 0;
+  }  
+
+  .subscribeInput{
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+  }
+
+  .subscribeButton{
+    background: cornflowerblue;
+    padding: 3%;
+    margin-left: 1%;
+    border-radius: 10px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .searchBar {
+      width: 100%;  /* Take up full width on smaller screens */
+    }
+
+    .searchInput{
+      width: 100% !important;
+    }
+  
+    /* Reduce font sizes for smaller screens */
+    body {
+      font-size: 10px;
+    }
+
+    .banner{
+      font-size: 15px !important;
+      height: 200px;
+      line-height: 75px;
+    }
+    
+    .description{
+      text-align: center;
+      border: 1px solid lightgray;
+      width: 98%;
+      margin: 1%;
+      border-radius: 5px;
+      height: 120px;
+      align-content: center;
+      padding: 3%;
+    }
+
+    .newArrivals p{
+      background-color: plum;
+      width: 120px;
+      height: 120px;
+      justify-content: space-between;
+      margin-left: 5px;
+      text-align: center;
+      line-height: 120px;
+    }
+
+    .bestSellers p{
+      background-color: plum;
+      width: 120px;
+      height: 120px;
+      justify-content: space-between;
+      margin-left: 5px;
+      text-align: center;
+      line-height: 120px;
+    }
+
+    .footer{
+      font-size: 10px !important;
+      padding: 10px !important;
+    }
+
+    .footer h6{
+      font-size: 15px !important;
+    }
+  }

@@ -1,0 +1,199 @@
+#addproduct #back{
+    font-size: 35px !important;
+    margin-left: 140px !important;
+    font-weight: bold;
+}
+
+#back:hover{
+    text-decoration: none;
+    background-color: white;
+    color: rgb(74, 149, 228);
+}
+
+#header{
+    display: flex;
+}
+
+#addproduct h5{
+    padding: 0.5%;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+form{
+    margin-left: 150px;
+    border-radius: 20px;
+}
+
+.section1{
+    border: 1px solid black;
+    padding: 20px;
+    width: 500px;
+    float: left;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.firsthalf input{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 450px;
+    padding: 5px;
+}
+
+#title{
+    margin-bottom: 30px;
+}
+
+.firsthalf #description{
+    width: 450px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.firsthalf
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.section1{
+    margin-bottom: 30px;
+}
+
+#media{
+    padding : 20px;
+    width: 500px;
+    height: 120px;
+    line-height: 80px;
+    padding-left: 150px;
+}
+
+.secondhalf{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 100px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.sh button{
+    margin-left: 230px;
+    margin-top: 20px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(74, 149, 228);
+    border-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    color: white !important;
+}
+
+.secondhalf input{
+    width: 280px;
+}
+
+.secondhalf select{
+    width: 280px;
+    padding: 5px;
+}
+.secondhalf label{
+    margin-top: 15px;
+}
+
+.form-container{
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    #addproduct h5 {
+        font-size: 16px; 
+    }
+
+    .firsthalf input,
+    .firsthalf #description,
+    #media,
+    .secondhalf {
+        width: 100%;
+        max-width: none;
+    }
+
+    .secondhalf input,
+    .secondhalf select {
+        max-width: 100%;
+    }
+
+    #back {
+        font-size: 25px;
+    }
+
+    .sh button {
+        font-size: 14px;
+    }
+
+    .section1{
+        width: 200px;
+        font-size: 10px;
+    }
+
+    #media{
+        width: 200px;
+        font-size: 10px;
+        padding-left: 30px;
+    }
+
+    form{
+        margin-left: 20px;
+    }
+
+    #addproduct #back{
+        font-size: 30px !important;
+        margin-left: 10px !important;
+        font-weight: bold;
+    }    
+
+    #addproduct h5{
+        padding-top: 1%;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .secondhalf{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-left: 30px;
+        width: 230px;
+        height: fit-content;
+        font-size: 10px;
+    }    
+
+    .section2 {
+        font-size: 10px;
+    }
+
+    .sh button{
+        margin-left: 100px;
+        margin-top: 10px;
+        width: 100px;
+        border-radius: 10px;
+        background-color: rgb(74, 149, 228);
+        border-color: white;
+        font-size: 10px;
+        font-weight: bold;
+        color: white !important;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+}

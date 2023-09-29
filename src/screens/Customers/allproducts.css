@@ -1,0 +1,168 @@
+.bar {
+    display: flex;
+    align-items: center;
+    background: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .searchBar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    width: 700px;
+  }
+  
+  .searchIcon {
+    margin-right: 5px;
+  }
+  
+  .searchInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    width: 700px;
+  }
+  
+  .userPhoto {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .loginButton {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .cartCount {
+    font-size: 15px;
+    margin-right: 5px;
+  }
+
+  .loginButton{
+    background: none;
+    color: black;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .user{
+    padding-left: 10px;
+  }
+
+  .cart{
+    margin-left: 10px;
+  }
+
+.cartIcon{
+    margin-right: 5px;
+}
+
+.allproducts #header h4{
+    padding: 0;
+    margin-top: 18px;
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+.allproducts #header #back{
+    font-size: 35px;
+    margin-left: 20px !important;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+#back:hover{
+    text-decoration: none;
+    background-color: white;
+    color: rgb(74, 149, 228);
+}
+
+#header{
+    display: flex;
+}
+
+  .footer {
+    background-color: purple;
+    color: #fff;
+    padding: 20px;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer h6 {
+    margin: 0;
+  }  
+
+  .subscribeInput{
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+  }
+
+  .subscribeButton{
+    background: cornflowerblue;
+    padding: 3%;
+    margin-left: 1%;
+    border-radius: 10px;
+  }
+
+  .list{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 98%;
+    margin: 1%;
+    padding-top: 1%;
+    padding-left: 0.5%;
+  }
+
+  .list .products{
+    display: flex;
+  }
+
+  .list p{
+    background-color: plum;
+    width: 220px;
+    height: 220px;
+    justify-content: space-between;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 200px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .list{
+      border: 1px solid lightgray;
+      border-radius: 5px;
+      width: 98%;
+      margin: 1%;
+      padding-top: 1%;
+      padding-left: 0.5%;
+    }
+  
+    .list .products{
+      display: flex;
+    }
+  
+    .list p{
+      background-color: plum;
+      width: 120px;
+      height: 120px;
+      justify-content: space-between;
+      margin-left: 5px;
+      text-align: center;
+      line-height: 120px;
+    }
+  }
+
+  

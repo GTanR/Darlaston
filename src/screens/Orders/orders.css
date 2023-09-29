@@ -1,0 +1,69 @@
+.box {
+    text-align: center;
+    border: 2px solid lightgray;
+    width: 85%;
+    height: fit-content;
+    margin-left: 7%;
+    border-radius: 10px;
+    margin-top: 18px;
+}
+
+.nav-tabs>li {
+    margin-right: 100px;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-tabs{
+    background-color: lightgray;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.nav-tabs>li a{
+    color: purple;
+    width: 200% !important;
+}
+
+table th,table td{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+table th{
+    font-size: 16px;
+}
+
+table thead tr{
+    border-bottom: 2px solid lightgray;
+}
+
+@media screen and (max-width: 768px) {
+    .box {
+        width: 95%; 
+        margin-left: 2%;
+    }
+
+    .nav-tabs > li {
+        margin-right: 38px; 
+        margin-left: 38px; 
+        font-size: 10px;
+
+    }
+
+    table td,table th {
+        padding-left: 5px !important; 
+        padding-right: 5px !important;
+    }
+
+    table th , table td {
+        font-size: 10px;
+    }
+
+    .nav-tabs>li a{
+        color: purple;
+        width: 100% !important;
+        font-size: 10px !important;
+    }    
+}
